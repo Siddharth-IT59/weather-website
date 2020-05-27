@@ -1,4 +1,3 @@
-//console.log('Client side javascript')
 
 // FETCH API SYNTAX 
 // fetch('http://puzzle.mead.io/puzzle').then((response) => {
