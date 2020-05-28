@@ -14,7 +14,7 @@ const forecast = (latitude, longitude, callback) => {
                 location: response.body.location.name,
                 temperature: response.body.current.temperature,
                 description: response.body.current.weather_descriptions[0],
-                forecast: 'Its '+response.body.current.weather_descriptions[0]+' ,temperature is '+response.body.current.temperature+' degrees in here'
+                forecast: 'Its '+response.body.current.weather_descriptions[0]+' ,temperature is '+response.body.current.temperature+' degrees in here. With humidity level of '+response.body.current.humidity+' and a cloud cover of '+response.body.current.cloudcover
             }
             callback(undefined, data)
         }
