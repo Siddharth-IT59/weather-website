@@ -32,6 +32,15 @@ h2{
     margin-top: 50px;
 }
 
+#about-text{
+    font-family: arial ;
+    padding: 20px;
+    /* margin: 20px;    */
+    font-size: 20px;
+    color:  rgb(46, 42, 42);
+
+}
+
 input{
     font-family: arial ;
     font-size: 20px ;
